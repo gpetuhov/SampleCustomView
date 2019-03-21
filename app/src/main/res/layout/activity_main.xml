@@ -9,6 +9,8 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
+    <!-- We can use custom views in the layout simply like this -->
+    <!-- Notice, that we can use custom attributes declared in attr.xml here -->
     <com.gpetuhov.android.samplecustomview.ColorOptionsView
             android:id="@+id/view1"
             android:layout_width="match_parent"

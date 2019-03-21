@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- These are the attributes for our custom view -->
+<!-- We can use them, when declaring our view in the layout -->
 <resources>
     <declare-styleable name="ColorOptionsView">
         <attr name="titleText" format="string" localization="suggested" />

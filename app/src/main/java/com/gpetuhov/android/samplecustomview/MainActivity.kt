@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Our custom view has setValueColor method, so we can call it
         view1.setOnClickListener { view1.setValueColor(getNextColor(Color.RED)) }
         view2.setOnClickListener { view2.setValueColor(getNextColor(Color.BLUE)) }
     }

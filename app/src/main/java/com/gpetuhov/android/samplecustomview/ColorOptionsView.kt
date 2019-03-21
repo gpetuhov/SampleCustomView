@@ -23,6 +23,10 @@ class ColorOptionsView(context: Context, attrs: AttributeSet?) : LinearLayout(co
     }
 
     private fun initView(context: Context, attrs: AttributeSet?) {
+        // Here we initialize our view with values provided
+        // in attributes inside the layout xml file (in MainActivity layout in this example).
+        // And also inflate it from its own layout file (view_color_options.xml).
+
         val attributes = context.obtainStyledAttributes(
             attrs,
             R.styleable.ColorOptionsView, 0, 0
